@@ -1,0 +1,88 @@
+
+    
+    button {
+    background-color: #E91E63;
+    color: white;
+    border: none;
+    bottom: 0;
+    height: 40px;
+    font-size: 16px;
+    float: right;
+    width: 90px;
+    margin: 10px 10px 0px 0px;
+    }
+    button:hover {
+      background-color: orange;
+    }
+
+    button:disabled {
+      background-color: grey;
+    }
+
+    p {
+     font-family: Open sans;
+    font-weight: bold;
+    width: 249px;
+    margin: 20px 0 5px 8px;
+    float: left;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+    .game {
+      margin: 150px auto 0 auto;
+    width: 470px;
+    overflow: auto;
+    position: relative;
+
+    }
+#canvas{
+  background: transparent;
+    border:10px solid #96a1a7 ;
+
+}
+
+#footer{
+    
+    background: gray;
+    display: block;
+    overflow: auto;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#wrap-left
+{
+    float: left;
+    width: 44%;
+    margin: 0 auto;
+    position: relative;
+}
+#wrap-right
+{
+    float: left;
+    width: 48%;
+    margin: 0 auto;
+    position: relative;
+}
+#round{
+   width: 50px;
+    height: auto;
+    min-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    background: #FFC107;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+   
+    top: 50px;
+    left: 100px;
+    
+}
+#button{
+     position: absolute;
+   top: 39px;
+    left: 86px;
+}
